@@ -73,6 +73,7 @@ function sendEmail() {
     .send("service_50edp6e", "template_u0jupq8", templateParams)
     .then(() => {
       alert("Message sent successfully!");
+      clearForm();
     })
     .catch((error) => {
       console.error("Email send failed:", error);
@@ -88,3 +89,7 @@ document
     e.preventDefault();
     sendEmail();
   });
+
+const clearForm = () => {
+  document.getElementById("contact-form").reset();
+};
