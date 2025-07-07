@@ -88,7 +88,7 @@ section {
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url("background1.jpg") no-repeat;
+  background: url("/images/background1.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -417,7 +417,6 @@ section {
   }
 }
 
-
 .review .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -459,8 +458,7 @@ section {
   padding-top: 2rem;
 }
 
-
-.review .box-container .box .user img{
+.review .box-container .box .user img {
   height: 6rem;
   width: 6rem;
   border-radius: 50%;
@@ -468,40 +466,36 @@ section {
   margin-right: 1rem;
 }
 
-.review .box-container .box .user h3{
+.review .box-container .box .user h3 {
   font-size: 2rem;
   color: #333;
 }
 
-.review .box-container .box .user span{
+.review .box-container .box .user span {
   font-size: 1.5rem;
   color: #999;
 }
 
-
-
-
 /* ##########contact########### */
-.contact .row{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap: 1.5rem;
-    align-items: center;
+.contact .row {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 1.5rem;
+  align-items: center;
 }
 
-.contact .row form{
-  flex:1 1 40rem;
+.contact .row form {
+  flex: 1 1 40rem;
   padding: 2rem 2.5rem;
-  box-shadow:0 .5rem 1.5rem rgba(0, 0, 0, 0.1) ;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   border: 1rem solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
-.contact .row .image{
+.contact .row .image {
   flex: 1 1 40rem;
 }
-
 
 .contact .row .image img {
   width: 100%;
@@ -517,80 +511,79 @@ section {
   transform: scale(1.05);
 }
 
- .contact .row form input,
-  .contact .row form textarea {
-    width: 100%;
-    padding: 1rem;
-    margin: 0.7rem 0;
-    font-size: 1.6rem;
-    border: 0.2rem solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-  }
+.contact .row form input,
+.contact .row form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.7rem 0;
+  font-size: 1.6rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
 
-  .contact .row form input:focus,
-  .contact .row form textarea:focus {
-    border-color: var(--pink);
-  }
+.contact .row form input:focus,
+.contact .row form textarea:focus {
+  border-color: var(--pink);
+}
 
-  .contact .row form button {
-    background: var(--pink);
-    color: #fff;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1.6rem;
-    cursor: pointer;
-    border-radius: 5rem;
-    transition: background 0.3s ease;
-  }
+.contact .row form button {
+  background: var(--pink);
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 5rem;
+  transition: background 0.3s ease;
+}
 
-  .contact .row form button:hover {
-    background: #333;
-  }
+.contact .row form button:hover {
+  background: #333;
+}
 /* ###########footer##########a */
 
-.footer .box-container{
+.footer .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.footer .box-container .box{
-  flex:1 1 25rem;
+.footer .box-container .box {
+  flex: 1 1 25rem;
 }
 
-.footer .box-container h3{
+.footer .box-container h3 {
   color: #333;
   font-size: 2.5rem;
   padding: 1rem 0;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box a {
   display: block;
   color: #666;
   font-size: 1.5rem;
   padding: 1rem 0;
 }
 
-.footer .box-container .box a:hover{
-  color:var(--pink);
+.footer .box-container .box a:hover {
+  color: var(--pink);
   text-decoration: underline;
 }
 
-.footer .box-container .box img{
+.footer .box-container .box img {
   margin-top: 1rem;
-} 
+}
 
-.footer .credit{
+.footer .credit {
   text-align: center;
   padding: 1.5rem;
   margin-top: 1.5rem;
   padding-top: 2.5rem;
   font-size: 2rem;
   color: #333;
-  border-top: .1rem solid rgba(0, 0, 0, 0.1);
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 
-
-.footer .credit span{
-   color: var(--pink);
+.footer .credit span {
+  color: var(--pink);
 }
