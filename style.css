@@ -284,11 +284,6 @@ section {
   padding-bottom: 5rem;
 }
 
-.icons:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
-
 /* 👇 Media query for very small screens */
 @media (max-width: 600px) {
   .icons {
